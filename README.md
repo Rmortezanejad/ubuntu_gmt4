@@ -4,6 +4,8 @@ under ubuntu 14.04
 
 #installation command
 
-git clone https://github.com/likueimo/ubuntu_gmt.git
-cd ubuntu_gmt
-bash install_bash_script
+```git clone https://github.com/likueimo/ubuntu_gmt.git```
+
+```cd ubuntu_gmt```
+
+```bash install_bash_script```
