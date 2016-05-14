@@ -1,0 +1,8 @@
+#	$Id: rflag.def 9545 2011-07-27 19:31:54Z pwessel $
+#
+#	Definition file a right-pointing flag symbol.
+#
+0	0	M
+0	0.5	D
+0.25	0.375	D
+0	0.25	D

@@ -1,0 +1,8 @@
+#	$Id: gmtfile_paths 9545 2011-07-27 19:31:54Z pwessel $
+#
+#	Directories with gmtfiles
+#	Currently set for SOEST data library
+#	Paul Wessel, January-2002
+#
+/home/gmt3/pwessel/DATA/NGDC/gmt
+/Users/pwessel/this_gmt/src/mgg

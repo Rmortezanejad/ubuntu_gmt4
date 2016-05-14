@@ -1,0 +1,7 @@
+#	$Id: circle.def 9545 2011-07-27 19:31:54Z pwessel $
+#
+#	Definition file for circle symbol.  Use in psxy
+#	as -Skcircle/size.  Unlike -Sc, this allows for
+#	using patterns as fill
+#
+0	0	1.0	C

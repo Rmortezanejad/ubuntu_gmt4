@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# for ubuntu 14.04 install gmt 4.5.14
+# with gshhg-gmt-2.3.5 
+# installation step ref seisman
+
+sudo apt-get update
+sudo apt-get install -y gcc make libc6
+sudo apt-get install -y libnetcdf-dev libgdal-dev python-gdal
+sudo apt-get install -y libxaw7-dev
+sudo apt-get install -y libice-dev libsm-dev libx11-dev
+sudo apt-get install -y libxext-dev libxmu-dev libxt-dev
+sudo apt-get install -y sshpass
+
+cd ~/
+#cd ~/gmt-4.5.14
+cd ./gmt-4.5.14
+./configure --prefix=/opt/GMT-4.5.14
+make
+sudo make install-all
+sudo mv ./gshhg-gmt-2.3.5 /opt/GMT-4.5.14/share/coasT
+
+echo 'export GMT4HOME=/opt/GMT-4.5.14' >> ~/.bashrc
+echo 'export PATH=${GMT4HOME}/bin:$PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GMT4HOME}/lib64' >> ~/.bashrc
+exec $SHELL -l

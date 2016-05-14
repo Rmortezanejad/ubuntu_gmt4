@@ -1,0 +1,7 @@
+#	$Id: rtriangle.def 9545 2011-07-27 19:31:54Z pwessel $
+#
+#	Definition file a right-pointing triangle symbol.
+#
+-0.25	-0.433012701892	M
+-0.25	0.433012701892	D
+0.5	0		D
