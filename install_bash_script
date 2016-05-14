@@ -12,8 +12,6 @@ sudo apt-get install -y libice-dev libsm-dev libx11-dev
 sudo apt-get install -y libxext-dev libxmu-dev libxt-dev
 sudo apt-get install -y sshpass
 
-cd ~/
-#cd ~/gmt-4.5.14
 cd ./gmt-4.5.14
 ./configure --prefix=/opt/GMT-4.5.14
 make
