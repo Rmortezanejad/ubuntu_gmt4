@@ -32,5 +32,6 @@ sudo mv ../gshhg-gmt-2.3.5 /opt/GMT-4.5.14/share/coast
 #export PATH=${GMT4HOME}/bin:$PATH
 #export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GMT4HOME}/lib64
 
-
-
+# for test
+# sudo cp -r ubuntu_gmt4/ /home/student/
+# sudo chown -R student:student ubuntu_gmt4/
