@@ -13,13 +13,13 @@ sudo apt-get install -y libnetcdf-dev libgdal-dev python-gdal
 sudo apt-get install -y libxaw7-dev
 sudo apt-get install -y libice-dev libsm-dev libx11-dev
 sudo apt-get install -y libxext-dev libxmu-dev libxt-dev
-sudo apt-get install -y sshpass
+#sudo apt-get install -y sshpass
 
-sudo mv ./gshhg-gmt-2.3.5 /opt/GMT-4.5.14/share/coast
 cd ./gmt-4.5.14
 ./configure --prefix=/opt/GMT-4.5.14
 make
 sudo make install-all
+sudo mv ../gshhg-gmt-2.3.5 /opt/GMT-4.5.14/share/coast
 
 
 #echo 'export GMT4HOME=/opt/GMT-4.5.14' >> ~/.bashrc
