@@ -4,6 +4,8 @@
 # with gshhg-gmt-2.3.5 
 # installation step ref seisman
 
+# PATH in /etc/profile
+
 sudo apt-get update
 sudo apt-get install -y gv
 sudo apt-get install -y gcc make libc6
