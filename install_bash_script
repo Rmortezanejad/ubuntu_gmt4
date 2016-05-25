@@ -20,7 +20,7 @@ make
 sudo make install-all
 
 
-echo 'export GMT4HOME=/opt/GMT-4.5.14' >> ~/.bashrc
-echo 'export PATH=${GMT4HOME}/bin:$PATH' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GMT4HOME}/lib64' >> ~/.bashrc
-exec $SHELL -l
+#echo 'export GMT4HOME=/opt/GMT-4.5.14' >> ~/.bashrc
+#echo 'export PATH=${GMT4HOME}/bin:$PATH' >> ~/.bashrc
+#echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GMT4HOME}/lib64' >> ~/.bashrc
+#exec $SHELL -l
