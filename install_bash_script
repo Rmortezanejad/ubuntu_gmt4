@@ -26,3 +26,11 @@ sudo mv ../gshhg-gmt-2.3.5 /opt/GMT-4.5.14/share/coast
 #echo 'export PATH=${GMT4HOME}/bin:$PATH' >> ~/.bashrc
 #echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GMT4HOME}/lib64' >> ~/.bashrc
 #exec $SHELL -l
+
+# copy to /etc/profile by hand
+#export GMT4HOME=/opt/GMT-4.5.14
+#export PATH=${GMT4HOME}/bin:$PATH
+#export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GMT4HOME}/lib64
+
+
+
