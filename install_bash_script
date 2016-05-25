@@ -5,6 +5,7 @@
 # installation step ref seisman
 
 sudo apt-get update
+sudo apt-get install -y gv
 sudo apt-get install -y gcc make libc6
 sudo apt-get install -y libnetcdf-dev libgdal-dev python-gdal
 sudo apt-get install -y libxaw7-dev
